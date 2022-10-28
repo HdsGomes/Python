@@ -2,6 +2,12 @@
 # que será comparado se o numero digitado é maior que 10, igual a 10 ou menor
 # que 10.
 
-num1 = float(input("digite o numero para saber se é maior, menor ou igual a 10"))
+print("Programa advinha número")
+num1 = int(input("digite o numero inteiro"))
 
-if(num1<10,"menor")
+if num1 > 10:
+    print( "O número digitado é maior que o número secreto")
+elif num1 < 10:
+    print("O número digitado é menor que o número secreto")
+else:
+    print("Você acertou o número secreto")
